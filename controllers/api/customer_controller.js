@@ -1,10 +1,13 @@
 const Customer = require('../../models/customer');
 const jwt = require('jsonwebtoken')
 var regpan = /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
+const toDate = (dateStr) => {
+    const [year, month, day] = dateStr.split("/")
+    return new Date(year, month - 1, day)
+}
 
 module.exports.createCustomer = async function(req,res){
-    
-    const date = Date.parse(req.body.DateOfBirth)
+    const date = toDate(req.body.DateOfBirth)
     console.log('this is date',date);
     try{
 
@@ -20,7 +23,8 @@ module.exports.createCustomer = async function(req,res){
             panNumber : req.body.panNumber,
             DateOfBirth : date,
             Gender : req.body.Gender,
-            email : req.body.email
+            email : req.body.email,
+            avatar : req.body.avatar
         });
 
         console.log('Customer registered successfully');

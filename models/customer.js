@@ -27,6 +27,11 @@ const customerSchema = mongoose.Schema({
     email : {
         type : String,
         require : true
+    },
+
+    avatar : {
+        type : String,
+        require : true
     }
 }, {
     timestamps: true
