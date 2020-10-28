@@ -49,6 +49,6 @@ and needs to be decrypted.</p>
 
 <ol>
 <h3>The two routes used are:</h3>
-<li>https://customer-api-test-2020.herokuapp.com/createCustomer</li>
-<li>https://customer-api-test-2020.herokuapp.com/showCustomer/:panNumber</li>
+<li>https://customer-api-test-2020.herokuapp.com/api/createCustomer</li>
+<li>https://customer-api-test-2020.herokuapp.com/api/showCustomer/:panNumber</li>
 </ol>
