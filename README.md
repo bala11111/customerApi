@@ -5,11 +5,10 @@
 <p>You will need to get the task done provided below with the required specifications to assess
 your candidature further.</p>
 
-<br>
-
 <h3>TASK OVERVIEW</h3>
 
-<ol><li>
+<ol>
+    <li>
     Created APIs to store the customer details in the database with validations and
     conditions that meet the following requirements:
     
@@ -41,7 +40,7 @@ your candidature further.</p>
 
 <h3>Token Mechanism</h3>
 
-<br><br>
+<br>
 
 <p>On a successful login API call, an encrypted token(like md5
 encryption) should be generated for future API calls. This token is used in the next API
