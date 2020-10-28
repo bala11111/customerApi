@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Balakrishnan J",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
   }
 }
