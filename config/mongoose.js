@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 // linking the DB
-mongoose.connect('mongodb://localhost/customerAPI');
+const url = process.env.MONGO_URL || 'mongodb://localhost/customerAPI'
+mongoose.connect(url);
 // getting the connection
 const db = mongoose.connection;
 
