@@ -1,11 +1,14 @@
 const Customer = require('../../models/customer');
 const jwt = require('jsonwebtoken')
 var regpan = /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
+
+//for converting Date string to Date Object
 const toDate = (dateStr) => {
     const [year, month, day] = dateStr.split("/")
     return new Date(year, month - 1, day)
 }
 
+//function for creating customer information
 module.exports.createCustomer = async function(req,res){
     const date = toDate(req.body.DateOfBirth)
     console.log('this is date',date);
@@ -47,6 +50,7 @@ module.exports.createCustomer = async function(req,res){
 }
 
 
+//function for showing customer infromation
 module.exports.showCustomer = async function(req,res){
     try{
 

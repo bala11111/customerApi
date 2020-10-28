@@ -5,7 +5,7 @@ const ExtractJWT = require('passport-jwt').ExtractJwt;
 
 const Customer = require('../models/customer');
 
-
+//extracting header
 let opts = {
     jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
     secretOrKey: 'customerapi'
