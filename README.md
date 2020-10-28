@@ -5,41 +5,37 @@
 <p>You will need to get the task done provided below with the required specifications to assess
 your candidature further.</p>
 
-<br><br>
+<br>
 
 <h3>TASK OVERVIEW</h3>
 
-<ol>
-  <li>
+<ol><li>
     Created APIs to store the customer details in the database with validations and
     conditions that meet the following requirements:
     
-    <br><br>
-    
     <ul>
        <li>
-        Data's stored
-        <ol>
-           <li>First Name</li>
-           <li>Pan Number</li>
-           <li>Date of birth</li>
-           <li>Gender</li>
-           <li>Email</li>
-           <li>Profile pic</li>
-        </ol>
+          Data's stored
+          <ol>
+             <li>First Name</li>
+             <li>Pan Number</li>
+             <li>Date of birth</li>
+             <li>Gender</li>
+             <li>Email</li>
+             <li>Profile pic</li>
+          </ol>
        </li>    
        <li>
-        Validations:
-        <ol>
-           <li>All fields are mandatory.</li>
-           <li> PAN Number validation.</li>
-           <li>DOB in yy/mm/dd format</li>
-           <li>Profile Image: Store hosted URL in the database.</li>
-        </ol>
+          Validations:
+          <ol>
+             <li>All fields are mandatory.</li>
+             <li> PAN Number validation.</li>
+             <li>DOB in yy/mm/dd format</li>
+             <li>Profile Image: Store hosted URL in the database.</li>
+          </ol>
        </li>
     </ul>
-    
-  </li>
+   </li>
 </ol>
 
 
